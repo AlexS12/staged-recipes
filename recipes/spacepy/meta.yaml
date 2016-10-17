@@ -31,7 +31,12 @@ requirements:
     - python
 
   run:
-    - python
+    - python >= 2.6
+    - numpy
+    - scipy
+    - matplotlib >= 0.99
+    - python_dateutil
+    - h5py
 
 test:
   # Python imports
@@ -59,7 +64,6 @@ about:
   home: http://spacepy.lanl.gov
   license: Python Software Foundation License
   summary: 'SpacePy: Tools for Space Science Applications'
-  license_family: Proprietary
 
 # See
 # http://docs.continuum.io/conda/build.html for
