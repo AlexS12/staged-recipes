@@ -28,6 +28,7 @@ requirements:
     - python-dateutil
     - h5py
     - libgfortran   [not win]
+    - libgcc        [not win]
 
 test:
   imports:
