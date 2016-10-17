@@ -21,7 +21,7 @@ requirements:
     - numpy
     - scipy
     - matplotlib
-    - python_dateutil
+    - python-dateutil
     - h5py
     - libgfortran
 
