@@ -15,10 +15,10 @@ requirements:
     - python
 
   run:
-    - python >= 2.6
+    - python
     - numpy
     - scipy
-    - matplotlib >= 0.99
+    - matplotlib
     - python_dateutil
     - h5py
 
