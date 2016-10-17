@@ -14,6 +14,7 @@ requirements:
   build:
     - python
     - numpy
+    - gfortran
 
   run:
     - python
@@ -22,6 +23,7 @@ requirements:
     - matplotlib
     - python_dateutil
     - h5py
+    - libgfortran
 
 test:
   imports:
