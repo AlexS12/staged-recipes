@@ -19,7 +19,8 @@ requirements:
     - python
     - numpy
     - gcc      [not win]
-    - m2w64-gcc-fortran [win]
+    - mingwpy  [win32]
+    - m2w64-gcc-fortran  [win64]
     - toolchain
 
   run:
@@ -31,7 +32,7 @@ requirements:
     - h5py
     - libgfortran   [not win]
     - libgcc        [not win]
-    - m2w64-gcc-libgfortran [win]
+    - m2w64-gcc-libgfortran [win64]
 
 test:
   imports:
